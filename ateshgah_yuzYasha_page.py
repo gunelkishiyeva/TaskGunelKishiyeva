@@ -5,11 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# Specify the path to the ChromeDriver executable 
-chromedriver_path = '/path/to/chromedriver'
-
-# Create a new instance of the Chrome driver
-driver = webdriver.Chrome(chromedriver_path)
+## Create a new instance of the Chrome driver
+driver = webdriver.Chrome()
 
 # Navigate to the Ateshgah Insurance Company's website
 driver.get('http://www.ateshgah.com')
